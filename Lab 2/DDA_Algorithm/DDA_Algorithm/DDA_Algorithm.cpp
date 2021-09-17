@@ -1,6 +1,5 @@
 // DDA_Algorithm.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
 #include <gl/glut.h>
 #include <stdio.h>
 float x1, y1, x2, y2, dx, dy, x, y;
@@ -40,7 +39,7 @@ void display(void) {
 }
 
 void init(void) {
-    glClearColor(256, 256, 0.0, 0.0);
+    glClearColor(0,0, 0, 0.0);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     gluOrtho2D(0, 800, 0, 800);
